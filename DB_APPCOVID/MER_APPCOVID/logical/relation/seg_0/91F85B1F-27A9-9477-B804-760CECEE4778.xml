@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="estpro" directorySegmentName="seg_0" id="91F85B1F-27A9-9477-B804-760CECEE4778">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:11:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<sourcePk>EBB5F268-CE26-0F39-011F-01D3D9ECA7F6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B40026DC-FABB-E8D3-4869-E0A20AE6AE17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D9C5696E-BC3D-78B4-0E05-B69A0B878715</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,13 @@
+.titulo{
+  position: absolute;
+  top: 30px;
+  left: 170px;
+  color: black;
+  font-size: x-large
+}
+.fecha{
+  position: absolute;
+  top: 5px;
+  left: 600px;
+  color: black;
+}

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_APPCOVID" id="EB520AC9-203C-4DA5-6883-D5E34F53EE73" version="3.5">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:09:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EB520AC9-203C-4DA5-6883-D5E34F53EE73</designId>
+</OSDM_Design>

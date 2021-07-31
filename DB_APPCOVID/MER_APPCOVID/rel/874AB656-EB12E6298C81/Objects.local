@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="1D393337-5AA2-E3A4-2878-1FBD31D3059A" name="PROPUESTA" seqName="seg_0"/>
+   <object objectType="Table" objectID="5ED97B28-1936-C95C-AF4D-BCE0BF196D75" name="aportes" seqName="seg_0"/>
+   <object objectType="Table" objectID="63311A3C-F78D-DA59-8BFB-D04C954C1D29" name="SECTOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="72B302D3-551C-4315-1792-AD0FC3322B86" name="SEC_ECO" seqName="seg_0"/>
+   <object objectType="Table" objectID="A90310A9-4119-89A3-CA27-6096CBDD2087" name="ACTIVIDAD" seqName="seg_0"/>
+   <object objectType="Table" objectID="AF4ECC45-7846-BD9E-CB88-E6F2E01DCFDF" name="EST" seqName="seg_0"/>
+   <object objectType="Table" objectID="F0005441-0FC6-05C3-4083-E0A5922EC7BF" name="PERSONA" seqName="seg_0"/>
+   <object objectType="Table" objectID="F1FA638E-62DD-FCE5-A0A1-3BDE31AFA1EB" name="PLAN_OPERACION" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2DAB7A9C-E687-B53F-4A1F-E96D75443549" name="FK_ASS_1" containerID="5ED97B28-1936-C95C-AF4D-BCE0BF196D75" refContainerID="F0005441-0FC6-05C3-4083-E0A5922EC7BF" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5BBD206F-6CFB-D817-F3CC-52E9A78EAE0A" name="EST_SECTOR_FK" containerID="AF4ECC45-7846-BD9E-CB88-E6F2E01DCFDF" refContainerID="63311A3C-F78D-DA59-8BFB-D04C954C1D29" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="62D99B0E-5A1F-4F02-2B8B-E26199201E2E" name="PLAN_OPERACION_PROPUESTA_FK" containerID="F1FA638E-62DD-FCE5-A0A1-3BDE31AFA1EB" refContainerID="1D393337-5AA2-E3A4-2878-1FBD31D3059A" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8A056311-8CA0-4B10-3158-56AC04EF87B9" name="ACTIVIDAD_PLAN_OPERACION_FK" containerID="A90310A9-4119-89A3-CA27-6096CBDD2087" refContainerID="F1FA638E-62DD-FCE5-A0A1-3BDE31AFA1EB" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A509C29F-0110-808D-7A42-95CADD1340D0" name="PROPUESTA_EST_FK" containerID="1D393337-5AA2-E3A4-2878-1FBD31D3059A" refContainerID="AF4ECC45-7846-BD9E-CB88-E6F2E01DCFDF" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF6B4003-684A-86DF-8C4B-0FFAC3AE5EC9" name="SECTOR_SEC_ECO_FK" containerID="63311A3C-F78D-DA59-8BFB-D04C954C1D29" refContainerID="72B302D3-551C-4315-1792-AD0FC3322B86" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F74D015D-134F-4624-4E67-1FB7DB2590AB" name="FK_ASS_2" containerID="5ED97B28-1936-C95C-AF4D-BCE0BF196D75" refContainerID="1D393337-5AA2-E3A4-2878-1FBD31D3059A" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

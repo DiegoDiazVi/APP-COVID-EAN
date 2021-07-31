@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="63116ADC-2CF8-BC83-10B5-11C5065F7298" mainViewID="05D2BA69-3A94-9978-A924-8224455DAF96">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:09:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

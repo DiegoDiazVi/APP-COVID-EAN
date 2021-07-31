@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="plaact" directorySegmentName="seg_0" id="64E81DA4-E10D-C9C7-A086-A70BBF032A65">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:11:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<sourcePk>2DCBE230-E26B-A1EE-325F-B4F3B738C9A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CDD9310-C6F4-F83C-9B38-72CEF0C3781F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3B6636FB-0C92-76CA-DBD4-4DB52C5A65BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

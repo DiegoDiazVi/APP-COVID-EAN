@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63311A3C-F78D-DA59-8BFB-D04C954C1D29" name="SECTOR">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>C606FD26-67C7-CBAD-1DDF-0AC41703B222</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idsector" id="6E945D4C-6DE9-DDDC-0699-0B0D033B76CF">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>DC237CF2-6613-DC97-9302-F2AB681ECCF4</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sector" id="0EBD1E54-2C9C-9DB9-6AB2-4E9AFEEAE6B7">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>BB648D0D-3992-9EF1-DE26-068053C39194</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idsececo" id="91AE4D54-2E14-6E5F-E094-DFAF9229ECF6">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>27BC5B44-68D1-3C1D-9913-4C9F24FDF720</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEC_ECO_idsececo" id="86EFFDBA-B5DF-D843-0666-4FCA8FD03D7F">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>E3C75C0C-681B-1274-E241-6248BD561070</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF6B4003-684A-86DF-8C4B-0FFAC3AE5EC9" referredColumn="D7EECE29-6E36-9E74-DAF9-EB669C4CA9A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14CD6757-A16E-9D45-32F2-4C053BE23D3B" name="SECTOR_PK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>9E490759-6634-2908-EB4A-9631702E82E3</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E945D4C-6DE9-DDDC-0699-0B0D033B76CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0FA15D3-D542-7B9F-D3BA-C4A5AD278DE8" name="SECTOR_SEC_ECO_FK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>DC3C0136-A31D-291A-4DA8-FAB7954257FE</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86EFFDBA-B5DF-D843-0666-4FCA8FD03D7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

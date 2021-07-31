@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D393337-5AA2-E3A4-2878-1FBD31D3059A" name="PROPUESTA">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>D9C5696E-BC3D-78B4-0E05-B69A0B878715</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idpropuesta" id="521362E7-0E07-A76C-C1F7-2E9656011E51">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>8B50B660-CEB6-7883-A2C9-C12622AFCC53</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="E26DE64B-A7BC-3048-7931-D17FF8E3FCE4">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>507C5A8C-1C86-A56C-B026-FF0C35F3B329</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipopropuesta" id="C1DFDF8A-9FB7-87BE-576B-347D907653FA">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>CC8538D1-DFC2-31C7-F7AE-76E0D296306D</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>2EF0457A-B5B1-8335-5B9B-9F454E0F8040</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecharegistro" id="94CBF590-25EE-D1E0-1BA5-1B22639E981B">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>7264C146-BB63-2DDA-41D0-0699C6550C9C</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="A397F16F-2B9F-E350-BA72-BED23C50FB21">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>8C5ABF58-5187-A626-EF94-AC625A4C8D04</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>FC955EE5-26B1-0AF6-D1B0-9DFB97B331E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idest" id="70B08897-EFB4-1808-4F0E-495E7C29E852">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>D2EF1180-566C-34BC-D373-9662A727CB89</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EST_idest" id="C0D287FD-0B97-B313-FB38-1D79FB4D2F7D">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>BB042450-5914-13FB-67AE-CC43CE6C349D</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A509C29F-0110-808D-7A42-95CADD1340D0" referredColumn="A56E5185-38EE-D88C-A59B-816011FDAF86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F8D3510-6A80-5E5D-4756-A3F24CAEF666" name="PROPUESTA_PK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>70266094-BCFC-F5C2-4AED-3A289285F405</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="521362E7-0E07-A76C-C1F7-2E9656011E51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="551AB1CC-66B1-837E-B9F8-21451B37017B" name="PROPUESTA_EST_FK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>91F85B1F-27A9-9477-B804-760CECEE4778</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D287FD-0B97-B313-FB38-1D79FB4D2F7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

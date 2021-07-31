@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5ED97B28-1936-C95C-AF4D-BCE0BF196D75" name="aportes">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_identificacion" id="109E0C72-5927-41B6-B524-EC46CC9350DB">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DAB7A9C-E687-B53F-4A1F-E96D75443549" referredColumn="D7B14E44-014D-231D-01A3-50A081FDA629"/>
+</associations>
+</Column>
+<Column name="PROPUESTA_idpropuesta" id="2DD07D3E-D880-7DC0-CB81-BB89823C7C22">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F74D015D-134F-4624-4E67-1FB7DB2590AB" referredColumn="521362E7-0E07-A76C-C1F7-2E9656011E51"/>
+</associations>
+</Column>
+<Column name="modificacion" id="08F36146-1803-552F-E558-37A4E4A46967">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>53206DF0-AC7A-34AD-6724-8378C51F966A</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7FB6FE9-A585-3DA6-AA2D-E6FE500DF2C4" name="aportes_PK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109E0C72-5927-41B6-B524-EC46CC9350DB"/>
+<colUsage columnID="2DD07D3E-D880-7DC0-CB81-BB89823C7C22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3CA56AA-7777-C47E-9471-973E8AD9905D" name="FK_ASS_1">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>5BBDBCC0-F11E-AE01-6F21-A2EE45AA2ABC</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109E0C72-5927-41B6-B524-EC46CC9350DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="284D7086-5A81-BB50-B993-8C13686C9689" name="FK_ASS_2">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>5BBDBCC0-F11E-AE01-6F21-A2EE45AA2ABC</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD07D3E-D880-7DC0-CB81-BB89823C7C22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

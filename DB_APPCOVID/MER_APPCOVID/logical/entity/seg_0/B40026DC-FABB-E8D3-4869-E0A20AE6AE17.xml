@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B40026DC-FABB-E8D3-4869-E0A20AE6AE17" name="EST">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:10:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idest" id="E9960D7B-A028-1C24-ADBF-7A8D0112F79D">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:10:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<importedID>68BBC4AF-F6DA-E884-83D9-8B30EE6D1D3F</importedID>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="establecimiento" id="D086CBC6-8969-69AB-E73C-199D60CCD88B">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:10:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<importedID>D5D10094-43AB-4B8E-DFCB-D2854429800A</importedID>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idsector" id="28AD3939-50A2-3B29-4D22-310D62F936DE">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:10:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<importedID>B323C6BF-6401-D671-DF84-38D423C36254</importedID>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idsector1" id="561940E9-A9C1-8300-8C66-EFC879D73491">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:11:28 UTC</createdTime>
+<generatorID>98D84309-84AB-7F7A-78E6-122B0C897C34</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<referedAttribute>DC237CF2-6613-DC97-9302-F2AB681ECCF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EBB5F268-CE26-0F39-011F-01D3D9ECA7F6" name="ESTABLECIMIENTO PK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:10:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E9960D7B-A028-1C24-ADBF-7A8D0112F79D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

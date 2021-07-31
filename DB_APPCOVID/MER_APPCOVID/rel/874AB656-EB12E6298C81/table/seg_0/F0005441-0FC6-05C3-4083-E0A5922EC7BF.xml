@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0005441-0FC6-05C3-4083-E0A5922EC7BF" name="PERSONA">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>3270D08F-9C7D-A56D-C4D0-D5EDBA631E03</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="identificacion" id="D7B14E44-014D-231D-01A3-50A081FDA629">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>6BA2C565-C23E-2D03-9FE0-36497FFED3D4</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipodocumento" id="1CACF642-ADE8-3859-22C1-FF18BBBB56CC">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>9E4AC646-A1BB-E102-117A-C1717DBFA7BA</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C54D0620-AF07-BC23-1062-FBA983F0A1F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E87EB5DE-24B1-B879-487E-6CE241F3A8B4">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>7F21A491-7C4D-6776-BD92-B9FB5810B4A1</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidopaterno" id="CD764B3E-ED98-22D0-8258-A5E335D18AAF">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>E1FCCB9C-99EE-5604-42BD-EBC94973B99A</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidomaterno" id="91972E0B-D2A0-0533-5B17-BAC947C257DA">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>F46F543E-3FFE-62A1-9E7B-C0C64E195E1B</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correoelectronico" id="358E5B48-A331-CF02-B84F-FE0CE15BAB12">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>F8D3F350-FF0D-2543-00EB-CF954A3E7DB0</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numerocelular" id="1A6BFBC1-D941-3CA8-32FD-1975DCB8CAFB">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>7B54032D-1162-EC53-F0B2-FF346B64FAEF</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="48D29C88-716E-D1AE-6244-15686D89A5E3">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>86375010-3A50-3E90-BF05-69806488F8F0</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contraseña" id="99509B44-6C50-98FC-D5BC-5B60DDFD13D2">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>51194DD7-5297-CD5E-8A08-48C64CF3C839</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="458E9FC7-956B-C265-1958-D99539BF5176">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>7D81CB03-6FAA-3AFF-7F25-B9A54BC44979</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>128E146F-0D5C-6568-CBFC-350D9BD72615</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C77C820-9A6B-CE9D-6277-F3412AD7C414" name="PERSONA_PK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>744A0006-6B4F-D3E1-DA82-5932EF9C5545</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7B14E44-014D-231D-01A3-50A081FDA629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

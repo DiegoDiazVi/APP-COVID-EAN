@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72B302D3-551C-4315-1792-AD0FC3322B86" name="SEC_ECO">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>994438DA-226B-76A5-EF6C-413A4C33E2C4</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idsececo" id="D7EECE29-6E36-9E74-DAF9-EB669C4CA9A3">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>F0EC7C2E-3754-0BFC-1F15-38CA9C63057F</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sectoreconomico" id="CA9C1085-8111-464F-3BCC-8DF1D1EDFA9C">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>C4F26B8C-361C-B060-7525-D84ADC32142D</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A88F912-2AC9-64DF-A6E3-58508AD3CA59" name="SEC_ECO_PK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>364BBC0F-4BA4-B459-C2F9-31B6CCDC056A</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7EECE29-6E36-9E74-DAF9-EB669C4CA9A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

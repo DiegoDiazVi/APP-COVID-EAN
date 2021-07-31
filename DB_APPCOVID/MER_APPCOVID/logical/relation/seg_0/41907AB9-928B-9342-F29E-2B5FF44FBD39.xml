@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="propla" directorySegmentName="seg_0" id="41907AB9-928B-9342-F29E-2B5FF44FBD39">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:11:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<engineerTo>
+<item key="874AB656-D88F-5DA4-7FE7-EB12E6298C81" value="true"/>
+</engineerTo>
+<sourcePk>70266094-BCFC-F5C2-4AED-3A289285F405</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D9C5696E-BC3D-78B4-0E05-B69A0B878715</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0CDD9310-C6F4-F83C-9B38-72CEF0C3781F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

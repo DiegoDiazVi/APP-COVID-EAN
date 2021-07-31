@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0CDD9310-C6F4-F83C-9B38-72CEF0C3781F" name="PLAN_OPERACION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3270D08F-9C7D-A56D-C4D0-D5EDBA631E03" name="PERSONA" seqName="seg_0"/>
+   <object objectType="Entity" objectID="3B6636FB-0C92-76CA-DBD4-4DB52C5A65BE" name="ACTIVIDAD" seqName="seg_0"/>
+   <object objectType="Entity" objectID="994438DA-226B-76A5-EF6C-413A4C33E2C4" name="SEC_ECO" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B40026DC-FABB-E8D3-4869-E0A20AE6AE17" name="EST" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C606FD26-67C7-CBAD-1DDF-0AC41703B222" name="SECTOR" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D9C5696E-BC3D-78B4-0E05-B69A0B878715" name="PROPUESTA" seqName="seg_0"/>
+   <object objectType="Relation" objectID="41907AB9-928B-9342-F29E-2B5FF44FBD39" name="propla" seqName="seg_0"/>
+   <object objectType="Relation" objectID="5BBDBCC0-F11E-AE01-6F21-A2EE45AA2ABC" name="aportes" seqName="seg_0"/>
+   <object objectType="Relation" objectID="64E81DA4-E10D-C9C7-A086-A70BBF032A65" name="plaact" seqName="seg_0"/>
+   <object objectType="Relation" objectID="91F85B1F-27A9-9477-B804-760CECEE4778" name="estpro" seqName="seg_0"/>
+   <object objectType="Relation" objectID="98D84309-84AB-7F7A-78E6-122B0C897C34" name="secest" seqName="seg_0"/>
+   <object objectType="Relation" objectID="DC3C0136-A31D-291A-4DA8-FAB7954257FE" name="secsec" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

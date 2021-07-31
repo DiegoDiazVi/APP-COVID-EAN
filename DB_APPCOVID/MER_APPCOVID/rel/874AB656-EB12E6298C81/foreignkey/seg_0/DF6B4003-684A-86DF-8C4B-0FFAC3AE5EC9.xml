@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF6B4003-684A-86DF-8C4B-0FFAC3AE5EC9" containerWithKeyObject="63311A3C-F78D-DA59-8BFB-D04C954C1D29" localFKIndex="E0FA15D3-D542-7B9F-D3BA-C4A5AD278DE8" name="SECTOR_SEC_ECO_FK">
+<createdBy>diegu</createdBy>
+<createdTime>2020-11-27 22:12:44 UTC</createdTime>
+<generatorID>DC3C0136-A31D-291A-4DA8-FAB7954257FE</generatorID>
+<ownerDesignName>MER_APPCOVID</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72B302D3-551C-4315-1792-AD0FC3322B86</referredTableID>
+<keyObject>8A88F912-2AC9-64DF-A6E3-58508AD3CA59</keyObject>
+<referredKeyID>8A88F912-2AC9-64DF-A6E3-58508AD3CA59</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
